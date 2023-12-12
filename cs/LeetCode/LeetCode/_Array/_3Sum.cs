@@ -1,11 +1,11 @@
-﻿namespace LeetCode.Array
+﻿namespace LeetCode._Array
 {
     internal class _3Sum
     {
         public IList<IList<int>> ThreeSum(int[] nums)
         {
             var result = new List<IList<int>>();
-            System.Array.Sort(nums);
+            Array.Sort(nums);
 
             int start = 0,
                 left,

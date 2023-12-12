@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Array
+﻿namespace LeetCode._Array
 {
     internal class _CombinationSum
     {

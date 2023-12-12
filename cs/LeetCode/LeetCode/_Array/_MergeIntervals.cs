@@ -1,6 +1,6 @@
 ﻿
 
-namespace LeetCode.Array
+namespace LeetCode._Array
 {
     internal class _MergeIntervals
     {
@@ -8,7 +8,7 @@ namespace LeetCode.Array
         {
             if (intervals.Length < 2)
                 return intervals;
-            System.Array.Sort(intervals, (a, b) => a[0] - b[0]);
+            Array.Sort(intervals, (a, b) => a[0] - b[0]);
             List<int[]> result = new List<int[]>();
             int[] workingInterval = intervals[0];
 
